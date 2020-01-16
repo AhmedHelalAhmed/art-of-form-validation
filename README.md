@@ -30,3 +30,4 @@ But HTML5 depends on the browser
 
 -   add to the form tag novalidate just go with custom validations
 -   we can use JqueryValidate.js
+-   we can use the best veevalidate
