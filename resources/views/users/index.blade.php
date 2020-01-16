@@ -24,6 +24,7 @@
                                 >Email address</label
                             >
                             <div class="col-md-6">
+                                <!-- try user example@email as value it will submit the form -->
                                 <input
                                     id="email"
                                     type="email"
@@ -31,6 +32,7 @@
                                     name="email"
                                     value="{{ old('email') }}"
                                     autocomplete="email"
+                                    pattern=".+@.+\..+"
                                     required
                                 />
                             </div>
