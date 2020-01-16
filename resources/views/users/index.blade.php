@@ -31,6 +31,7 @@
                                     name="email"
                                     value="{{ old('email') }}"
                                     autocomplete="email"
+                                    required
                                 />
                             </div>
                         </div>
@@ -47,6 +48,7 @@
                                     class="form-control @error('password') is-invalid @enderror"
                                     name="password"
                                     autocomplete="current-password"
+                                    required
                                 />
                             </div>
                         </div>
