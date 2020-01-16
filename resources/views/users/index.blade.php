@@ -52,6 +52,7 @@
                                     autocomplete="current-password"
                                     required
                                     minlength="6"
+                                    pattern="^(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}$"
                                 />
                             </div>
                         </div>
