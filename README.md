@@ -25,3 +25,8 @@ every day there are:
 -   pattern="^(?=.\d)(?=.[a-z])(?=.\*[A-Z]).{8,}\$"
 
 But HTML5 depends on the browser
+
+## validate with javascript
+
+-   add to the form tag novalidate just go with custom validations
+-   we can use JqueryValidate.js

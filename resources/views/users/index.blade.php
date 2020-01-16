@@ -5,7 +5,12 @@
             <div class="card">
                 <div class="card-header">Login Form</div>
                 <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+                    <form
+                        id="login"
+                        method="POST"
+                        action="{{ route('login') }}"
+                        novalidate
+                    >
                         @csrf
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label"
@@ -54,6 +59,7 @@
                     </form>
                 </div>
             </div>
+            {{--
             <div class="card mt-3">
                 <div class="card-header">Register Form</div>
                 <div class="card-body">
@@ -140,7 +146,11 @@
                     </form>
                 </div>
             </div>
+            --}}
         </div>
     </div>
 </div>
+
+@endsection @section ('scripts')
+<script src="js/my_script.js" defer></script>
 @endsection
