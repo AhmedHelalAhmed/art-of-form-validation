@@ -51,6 +51,7 @@
                                     name="password"
                                     autocomplete="current-password"
                                     required
+                                    minlength="6"
                                 />
                             </div>
                         </div>
